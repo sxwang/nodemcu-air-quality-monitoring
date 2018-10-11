@@ -1,0 +1,4 @@
+firmware/*
+data/*
+dev/*
+.ipynb_checkpoints/*
