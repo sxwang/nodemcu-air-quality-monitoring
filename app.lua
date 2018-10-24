@@ -164,4 +164,4 @@ end
 ccs811_setup()
 print("data collection:") 
 print("time(s), temp(C), hum(%), eCO2(ppm), eTVOC(ppb), rawI(uA), rawV, baseline")
-tmr.alarm(1, 20000, 1, sendToThingspeak) -- 20 sec
+tmr.alarm(1, 60000, 1, sendToThingspeak) -- 1 min
