@@ -63,6 +63,8 @@ CCS811 measurement range (from datasheet):
 - eCO2: 400-32768 ppm
 - eTVOC: 0-32768 ppb
 
+Alternatively, set up an account on plot.ly and run `plotdata.py` periodically to plot data from thingspeak. I have this running as a crontab on my local machine. Note: insert the appropriate thingspeak channel id in `plotdata.py`.
+
 References
 ----------
 
